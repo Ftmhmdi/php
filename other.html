@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>connection</title>
+        <style>
+            h1 {
+                color:blueviolet;
+                font-size: 30px;
+                font-weight: 400;
+            }
+            h2 {
+                color: blue;
+                font-weight: bold;
+            }
+            h3 { 
+                font-size: 16px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1>Hello!!
+        </h1 >
+        
+          <h2><marquee > Please enter the information </marquee></h2 >
+        <form method="post" action="phph.php">
+
+            <label for="fname">first name : </label>
+            <input name="fname" required id="fname" type="text" /><br />
+            <label for="lname">last name : </label>
+            <input name="lname" required id="lname" type="text" /><br />
+            <label for="age">age : </label>
+            <input name="age" required id="age" type="number" /><br /> 
+
+
+            <input type="radio" name="gender" id="female"/>
+            <label for="female">female</label>
+            <input type="radio" name="gender" id="male"/>
+            <label for="male">male</label><br />
+            <select name="" id="">
+                <option value="">CE</option>
+                <option value="">CS</option>
+                <option value="">other engineerings</option>
+            </select>
+
+            <h3>your activities: </h3>
+            <textarea name="matn" id="matn" cols="30" rows="5"></textarea><br />
+            <input type="submit" value="send" />
+
+
+        </form>
+
+    </body>
+</html>
